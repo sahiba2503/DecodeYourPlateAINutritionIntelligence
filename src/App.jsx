@@ -1,7 +1,8 @@
+import NaveBar from "./component/NaveBar";
 function App() {
   return (
     <div>
-      <h1>Decode your plate AI nutrition intelligence</h1>
+        <NaveBar/> 
     </div>
   );
 }

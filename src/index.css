@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.nave_bar {
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 2rem;
+    padding: 1rem;
+}
+
+.nutritionLog {
+    width: 15%;
+    display: flex;
+    align-items: center;
+}
+
+.nutritionLog li {
+    list-style: none;
+    margin-left: 1rem;
+    font-size: 0.5rem;
+}
+
+.nutritionLog img {
+    /* border: 1px solid blue; */
+    width: 30%;
+    height: 2rem;
+}
+
+.nave_bar ul {
+    /* border: 2px solid red; */
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.naveButtons {
+    /* border: 2px solid green; */
+    display: flex;
+    height: 2rem;
+    justify-content: space-between;
+    width: 20%;
+}
+
+.naveButtons img {
+    /* border: 2px solid black; */
+    width: 20%;
+
+}
