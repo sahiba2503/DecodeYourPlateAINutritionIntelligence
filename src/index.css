@@ -4,7 +4,7 @@ body {
 }
 
 .nave_bar {
-    /* border: 2px solid black; */
+    border: 2px solid black;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -153,3 +153,57 @@ width: 50%;
     font-size: 11px;
     margin-left: 0.5rem;
  }
+  .SignNavebar{
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 2rem;
+    padding: 1rem;
+}
+.navelogoWithContent{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    
+}
+.navelogoWithContent img{
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1rem;
+}
+.aboutAccount{
+    border: 2px solid green;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.aboutAccount strong{
+    color:green;
+}
+.mainContant img{
+    width: 70%;
+    height: 50%;
+    text-align: center;
+}
+.signUpForm{
+    border: 1px solid black;
+    width: 50%;
+    height: 100vh;
+    padding: 5%;
+}
+.signUpForm input, #signbtn{
+    width: 100%;
+    margin-bottom: 1rem;
+
+}
+.signupOptionBtn {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.signupOptionBtn button{
+    width: 45%;
+}
