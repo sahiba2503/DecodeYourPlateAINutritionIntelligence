@@ -61,7 +61,7 @@ body {
 }
 .mainContant{
     /* border: 2px solid black; */
-    width: 50%;
+    /* width: 50%; */
 }
 .mainImage{
 /* border: 2px solid green; */
@@ -189,7 +189,7 @@ width: 50%;
 }
 .signUpForm{
     border: 2px solid rgb(211, 208, 208);
-    width: 40%;
+    /* width: 40%; */
     height: 100vh;
     padding: 5%;
     border-radius: 1rem;
