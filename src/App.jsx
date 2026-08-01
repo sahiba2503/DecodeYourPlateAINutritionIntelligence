@@ -1,16 +1,16 @@
-// import NaveBar from "./component/NaveBar";
-// import MainContainer from "./MainContainer";
+import NaveBar from "./component/NaveBar";
+import MainContainer from "./MainContainer";
 
-import SignIn from "./SignIn";
+// import SignIn from "./SignIn";
 
 //  import SignUp from "./SignUp";
 function App() {
   return (
     <div>
-        {/* <NaveBar/> 
-        <MainContainer /> */}
+        <NaveBar/> 
+        <MainContainer />
          {/* <SignUp/> */}
-        <SignIn />
+        {/* <SignIn /> */}
     </div>
   );
 }
