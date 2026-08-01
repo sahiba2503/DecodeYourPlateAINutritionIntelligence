@@ -1,15 +1,12 @@
-
 import MainContantBody from "./MainContantBody";
 import MainImgBody from "./MainImgBody";
 function Startpage() {
   return (
-   
-       <div className="bodyContainer">
+    <div className='bodyContainer'>
       <MainContantBody />
-       <MainImgBody />
-    
+      <MainImgBody />
     </div>
-  )
+  );
 }
 
-export default Startpage
+export default Startpage;

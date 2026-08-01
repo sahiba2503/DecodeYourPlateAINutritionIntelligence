@@ -1,16 +1,10 @@
-import NaveBar from "./component/NaveBar";
+import NaveBar from "./Component/NaveBar";
 import MainContainer from "./MainContainer";
-
-// import SignIn from "./SignIn";
-
-//  import SignUp from "./SignUp";
 function App() {
   return (
     <div>
-        <NaveBar/> 
-        <MainContainer />
-         {/* <SignUp/> */}
-        {/* <SignIn /> */}
+      < NaveBar />
+      <MainContainer />
     </div>
   );
 }

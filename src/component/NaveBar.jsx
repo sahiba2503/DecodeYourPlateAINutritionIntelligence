@@ -1,7 +1,6 @@
 
 import sunlight from "../assets/sunlight.png";
 import nutritionImgC from "../assets/nutritionImgC.jpg";
-// import { sunlight.png } from '/';
 function NaveBar() {
   return (
     <div className="nave_bar">
