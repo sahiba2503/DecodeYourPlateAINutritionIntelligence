@@ -8,8 +8,8 @@ function MainContainer() {
     <div>
       <Routes>
         <Route path='/' element={<Startpage />}></Route>
-        <Route path='/signInPage' element={<SignIn />}></Route>
-        <Route path='/signUpPage' element={<SignUp />}></Route>
+        <Route path="/signInPage" element={<SignIn />}></Route>
+        <Route path="/signUpPage" element={<SignUp />}></Route>
       </Routes>
     </div>
   );

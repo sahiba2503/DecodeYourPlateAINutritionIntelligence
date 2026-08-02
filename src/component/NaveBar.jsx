@@ -1,7 +1,9 @@
 
 import sunlight from "../assets/sunlight.png";
 import nutritionImgC from "../assets/nutritionImgC.jpg";
+import {useNavigate} from "react-router-dom";
 function NaveBar() {
+  let navigate = useNavigate();
   return (
     <div className="nave_bar">
       <div className="nutritionLog">
@@ -23,8 +25,8 @@ function NaveBar() {
       </ul>
       <div className='naveButtons'>
       <img src={sunlight} />
-        <button>Sign in</button>
-        <button>Sign Up</button>
+        <button onClick={()=>navigate("/signInPage")}>Sign in</button>
+        <button onClick={()=>navigate("/signUpPage")}>Sign Up</button> 
       </div>
     </div>
   )

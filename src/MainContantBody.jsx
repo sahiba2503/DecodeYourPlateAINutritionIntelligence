@@ -1,6 +1,7 @@
 import nutritionImgC from "./assets/nutritionImgC.jpg";
-
+import { useNavigate } from "react-router-dom";
 function MainContantBody() {
+  let navigate = useNavigate();
   return (
     <div className='mainContant'>
       <h6>AI-Powered Nutrition Tracking</h6>
@@ -12,8 +13,8 @@ function MainContantBody() {
         day. Scan your meals, track nutrients, and achieve your goals.
       </p>
       <div className='mainContantButtons'>
-        <button>Sign Up</button>
-        <button>Sign In</button>
+        <button onClick={()=>navigate("/signInPage")}>Sign In</button>
+        <button onClick={()=>navigate("/signUpPage")}>Sign Up</button>
       </div>
       <div className='mainInfo'>
         <div>
