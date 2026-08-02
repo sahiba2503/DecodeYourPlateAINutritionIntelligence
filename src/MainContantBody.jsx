@@ -13,8 +13,8 @@ function MainContantBody() {
         day. Scan your meals, track nutrients, and achieve your goals.
       </p>
       <div className='mainContantButtons'>
-        <button onClick={()=>navigate("/signInPage")}>Sign In</button>
-        <button onClick={()=>navigate("/signUpPage")}>Sign Up</button>
+        <button onClick={() => navigate("/signInPage")}>Sign In</button>
+        <button onClick={() => navigate("/signUpPage")}>Sign Up</button>
       </div>
       <div className='mainInfo'>
         <div>

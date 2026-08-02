@@ -1,26 +1,30 @@
 
 import PageMainContaint from "./PageMainContaint"
-import PageNave from "./PageNave";
+
 
 function SignIn() {
   return (
-    <div className="SignpageContainer"> 
-      <PageNave />
+      
     <div className="bodyContainer"> 
     <PageMainContaint />
-     <div className="signInForm">
-                <h3 style={{textAlign:"center"}}>Create Your Account</h3>
-                <p style={{textAlign:"center"}}>sign in to get started with your health journey</p>
-                <input type="text"  placeholder="Full Name"/>
+     <div className="signForm">
+                <h3 style={{textAlign:"center"}}>Welcom Back</h3>
+                <p style={{textAlign:"center"}}>sign in to your account</p>
                 <input type="emain" placeholder="Email Address" />
                 <input type="password" placeholder="Password" />
-                <input type="text" placeholder="Confirm Password" />
-                <h5>I agree to the Terms of Service and Privecy Policy</h5>
+                <h5>Remember me</h5>
                 <input type="checkbox"/>
+                <strong style={{color:"green"}}>Forgot Password?</strong>
                 <button id="signbtn"> Sign in</button>
+                  <p style={{textAlign:"center"}}>Or Sign in with </p>
+                  <div className="signOptionBtn">  
+                  <button >Google</button>
+                  <button>Apple</button>
+                  </div>
+
                      </div> 
       </div>
-    </div>
+   
   )
 }
 

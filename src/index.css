@@ -59,10 +59,7 @@ body {
     height: 90vh;
     width: 90%;
 }
-.mainContant{
-    /* border: 2px solid black; */
-    /* width: 50%; */
-}
+
 .mainImage{
 /* border: 2px solid green; */
 width: 50%;
@@ -187,7 +184,7 @@ width: 50%;
     height: 50%;
     text-align: center;
 }
-.signUpForm , .signInForm{
+.signForm{
     border: 2px solid rgb(211, 208, 208);
     /* width: 40%; */
     height: 100vh;
@@ -195,16 +192,13 @@ width: 50%;
     border-radius: 1rem;
     margin-left: 5%;
 }
-.signUpForm input, #signbtn{
+.signForm input, #signbtn{
     width: 100%;
     margin-bottom: 1rem;
 
 }
-.signInForm input, #signbtn{
-    width: 100%;
-    margin-bottom: 1rem;
-}
-.signupOptionBtn {
+
+.signOptionBtn {
     width: 100%;
     display: flex;
     flex-direction: row;
