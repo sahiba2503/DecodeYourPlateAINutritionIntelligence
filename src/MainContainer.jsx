@@ -1,4 +1,4 @@
-import Startpage from "./Startpage";
+import Homepage from "./Homepage";
 import { Routes, Route } from "react-router-dom";
 import SignIn from "./SignIn";
 import SignUp from "./SignUp";
@@ -7,7 +7,7 @@ function MainContainer() {
   return (
     <div>
       <Routes>
-        <Route path='/' element={<Startpage />}></Route>
+        <Route path='/home' element={<Homepage />}></Route>
         <Route path="/signInPage" element={<SignIn />}></Route>
         <Route path="/signUpPage" element={<SignUp />}></Route>
       </Routes>

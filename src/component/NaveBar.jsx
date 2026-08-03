@@ -1,9 +1,10 @@
 
 import sunlight from "../assets/sunlight.png";
 import nutritionImgC from "../assets/nutritionImgC.jpg";
-import {useNavigate} from "react-router-dom";
+import {useNavigate,useLocation} from "react-router-dom";
 function NaveBar() {
   let navigate = useNavigate();
+  let location = useLocation();
   return (
     <div className="nave_bar">
       <div className="nutritionLog">
@@ -15,7 +16,7 @@ function NaveBar() {
       </div>
      
       <ul>
-        <li>Home</li>
+        <li onClick={()=>navigate("/home") }  className={location.pathname.startsWith("/home")?"activeLink":"normalLink" }>Home</li>
         <li>Features</li>
         <li>How It Works</li>
         <li>Benefits</li>
@@ -25,8 +26,8 @@ function NaveBar() {
       </ul>
       <div className='naveButtons'>
       <img src={sunlight} />
-        <button onClick={()=>navigate("/signInPage")}>Sign in</button>
-        <button onClick={()=>navigate("/signUpPage")}>Sign Up</button> 
+        <button onClick={()=>navigate("/signInPage")} className={location.pathname.endsWith("/signInPage") ? "activeLink" : "normalLink"}>Sign in</button>
+        <button onClick={()=>navigate("/signUpPage")} className={location.pathname.endsWith("/signUpPage") ? "activeLink" : "normalLink"}>Sign Up</button> 
       </div>
     </div>
   )

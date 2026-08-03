@@ -207,3 +207,9 @@ width: 50%;
 .signupOptionBtn button{
     width: 45%;
 }
+.activeLink{
+    color:green;
+}
+.normalLink{
+    color:black;
+}
