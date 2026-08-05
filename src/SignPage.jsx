@@ -1,6 +1,7 @@
 
 
 function SignPage() {
+  
   return (    
       <div className="signForm">
                 <h3 style={{textAlign:"center"}}>Create Your Account</h3>

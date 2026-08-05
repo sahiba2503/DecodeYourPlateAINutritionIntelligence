@@ -1,13 +1,14 @@
 
 import nutritionImgB from "./assets/nutritionImgB.jpg"
 
-function PageMainContaint() {
+function PageMainContaint(props) {
+     
   return (
    
       <div className="mainContant">
-              <h6>Welcom to Nutrition Intelligence</h6>
-              <h1>Understand Your Food.Improve <span >Your Health</span></h1>
-              <p>AI-powered nutrition tracking to help you build healthier habits every day. Scan your meals, track nutrients, and achieve your goals.</p>
+              <h6>{props.sortHeading}</h6>
+              <h1>{props.hedingContent}</h1>
+              <p>{props.detailContaint}</p>
               <img src={nutritionImgB} />
             </div> 
    
