@@ -12,12 +12,9 @@ function SignUp() {
 
   return (
     <div className="SignpageContainer">      
-      <div className="bodyContainer">    
             <PageMainContaint sortHeading={sortHeading} hedingContent={hedingContent} detailContaint = {detailContaint}/>
             <SignPage  />
-          </div>
-
-    </div>
+             </div>
   )
 }
 
