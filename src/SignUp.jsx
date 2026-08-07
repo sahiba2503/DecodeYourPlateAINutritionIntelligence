@@ -1,8 +1,8 @@
 
 
 
+import SignupPage from "./component/SignupPage";
 import PageMainContaint from "./PageMainContaint";
-import SignPage from "./SignPage";
 function SignUp() {
 
               
@@ -13,7 +13,7 @@ function SignUp() {
   return (
     <div className="SignpageContainer">      
             <PageMainContaint sortHeading={sortHeading} hedingContent={hedingContent} detailContaint = {detailContaint}/>
-            <SignPage  />
+            <SignupPage />
              </div>
   )
 }

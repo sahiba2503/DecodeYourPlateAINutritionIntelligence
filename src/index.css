@@ -4,7 +4,7 @@ body {
 }
 
 .nave_bar {
-    border: 2px solid black;
+    border: 1px solid rgb(197, 195, 195);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -73,12 +73,15 @@ width: 50%;
     height: 90vh;
    
 }
+.mainContant{
+    max-width: 50%;
+}
 
 .mainContant h6{
     border: 0.5px solid black;
     background-color: rgb(244, 193, 201);
     padding: 0.5rem;
-    width: 50%;
+    max-width: 50%;
      text-align: center;
     border-radius: 1rem;
 }
@@ -186,11 +189,11 @@ width: 50%;
        background-color: red;
 }
 .signForm{
-    border: 2px solid rgb(211, 208, 208);
-   
-      padding: 5%;
+    border: 2px solid rgb(211, 208, 208);   
+    padding: 5%;
     border-radius: 1rem;
     margin-left: 5%;
+    width:45%;
 }
 .signForm input, #signbtn{
     width: 90%;
@@ -215,6 +218,6 @@ width: 50%;
 }
 .SignpageContainer{
     display: flex;
-    border: 3px solid green;
-    padding: 1rem;
+    padding: 0 2%;
+    width: 96%;
 }
