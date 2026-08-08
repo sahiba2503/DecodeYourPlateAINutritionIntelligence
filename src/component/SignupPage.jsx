@@ -2,7 +2,8 @@
 
 function SignupPage() {
   
-  return (    
+  return (   
+    <div>
       <div className="signForm">
                 <h3 style={{textAlign:"center"}}>Welcome Back</h3>
                 <p style={{textAlign:"center"}}>Sign in to your account</p>
@@ -17,6 +18,7 @@ function SignupPage() {
                   <button >Google</button>
                   <button>Apple</button>
                   </div>
+                </div> 
                 </div> 
    
   )

@@ -3,7 +3,8 @@
 function SignPage() {
   
   return (    
-      <div className="signForm">
+      <div>
+              <div className="signForm">
                 <h3 style={{textAlign:"center"}}>Create Your Account</h3>
                 <p style={{textAlign:"center"}}>sign up to get started with your health journey</p>
                 <input type="text"  placeholder="Full Name"/>
@@ -17,6 +18,7 @@ function SignPage() {
                   <div className="signOptionBtn">  
                   <button >Google</button>
                   <button>Apple</button>
+                  </div>
                   </div>
                 </div> 
    
